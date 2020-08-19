@@ -2,8 +2,8 @@ const express = require('express')
 require('./db/mongoose') // to get the connectivity to the database
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
-const User = require('./models/user') // User Model
-const Task = require('./models/task') // Task Model
+const User = require('./models/user')
+const Task = require('./models/task') 
 const { response } = require('express')
 const userRouter = require('./routers/user')
 const taskRouter = require('./routers/task')
