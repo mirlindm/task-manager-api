@@ -17,8 +17,6 @@ app.use(userRouter)
 app.use(taskRouter)
 
 
-// connect to mongodb: C:\Users\"Mirlind Murati"\mongodb\bin\mongod.exe --dbpath=C:\Users\"Mirlind Murati"\mongodb-data
-
 app.listen(port, () => {
     console.log('Server is up on port ' + port)
 })
